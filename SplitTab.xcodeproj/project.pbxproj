@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B06E00E208F993D0021D242 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06E00D208F993D0021D242 /* MenuItem.swift */; };
+		0B06E010208F994D0021D242 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06E00F208F994D0021D242 /* Menu.swift */; };
+		0B06E03B209040300021D242 /* FinalRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06E03A209040300021D242 /* FinalRecViewController.swift */; };
 		0B7CAFE020450B4D00E1A958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CAFDF20450B4D00E1A958 /* AppDelegate.swift */; };
 		0B7CAFE220450B4D00E1A958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CAFE120450B4D00E1A958 /* ViewController.swift */; };
 		0B7CAFE520450B4D00E1A958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CAFE320450B4D00E1A958 /* Main.storyboard */; };
 		0B7CAFE720450B4D00E1A958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CAFE620450B4D00E1A958 /* Assets.xcassets */; };
 		0B7CAFEA20450B4D00E1A958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CAFE820450B4D00E1A958 /* LaunchScreen.storyboard */; };
+		0B807FC2204F768F00A0D8C6 /* StartTabButtonStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B807FC1204F768F00A0D8C6 /* StartTabButtonStyler.swift */; };
+		0B807FC4204F780100A0D8C6 /* NearbyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B807FC3204F780100A0D8C6 /* NearbyCollectionViewController.swift */; };
+		0B992A1F208EE1BA00278B97 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B992A1E208EE1BA00278B97 /* Restaurant.swift */; };
+		0BAF7844204F9EC0004A4F9A /* NearbyTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF7843204F9EC0004A4F9A /* NearbyTemplateViewController.swift */; };
+		0BB83FDD207AD63A000CE321 /* RestaurantProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB83FDC207AD63A000CE321 /* RestaurantProfileViewController.swift */; };
+		0BB90EF3204CF6F00027825A /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EF2204CF6F00027825A /* TabItem.swift */; };
+		0BB90EF5204CFE6E0027825A /* TabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EF4204CFE6E0027825A /* TabTableViewCell.swift */; };
+		0BB90EF7204D06C50027825A /* TabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EF6204D06C50027825A /* TabTableViewController.swift */; };
+		0BB90EF9204D2AA00027825A /* TabUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EF8204D2AA00027825A /* TabUIView.swift */; };
+		0BB90EFB204D31550027825A /* PayUIButtonStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EFA204D31550027825A /* PayUIButtonStyler.swift */; };
+		0BB90EFD204F2C790027825A /* TabTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EFC204F2C790027825A /* TabTotal.swift */; };
+		0BB90EFF204F30B90027825A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90EFE204F30B90027825A /* TabViewController.swift */; };
+		0BB90F01204F3A1B0027825A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB90F00204F3A1B0027825A /* Tab.swift */; };
+		39CF74C9F17F7B63E0B8C9DE /* Pods_SplitTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692042A2DA90A920DE623398 /* Pods_SplitTab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05604BF64A2B2F30AB9B69D4 /* Pods-SplitTab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitTab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitTab/Pods-SplitTab.debug.xcconfig"; sourceTree = "<group>"; };
+		0B06E00D208F993D0021D242 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		0B06E00F208F994D0021D242 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0B06E03A209040300021D242 /* FinalRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalRecViewController.swift; sourceTree = "<group>"; };
 		0B7CAFDC20450B4D00E1A958 /* SplitTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7CAFDF20450B4D00E1A958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B7CAFE120450B4D00E1A958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,21 @@
 		0B7CAFE620450B4D00E1A958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7CAFE920450B4D00E1A958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7CAFEB20450B4D00E1A958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B807FC1204F768F00A0D8C6 /* StartTabButtonStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabButtonStyler.swift; sourceTree = "<group>"; };
+		0B807FC3204F780100A0D8C6 /* NearbyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCollectionViewController.swift; sourceTree = "<group>"; };
+		0B992A1E208EE1BA00278B97 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0BAF7843204F9EC0004A4F9A /* NearbyTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyTemplateViewController.swift; sourceTree = "<group>"; };
+		0BB83FDC207AD63A000CE321 /* RestaurantProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantProfileViewController.swift; sourceTree = "<group>"; };
+		0BB90EF2204CF6F00027825A /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		0BB90EF4204CFE6E0027825A /* TabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableViewCell.swift; sourceTree = "<group>"; };
+		0BB90EF6204D06C50027825A /* TabTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableViewController.swift; sourceTree = "<group>"; };
+		0BB90EF8204D2AA00027825A /* TabUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabUIView.swift; sourceTree = "<group>"; };
+		0BB90EFA204D31550027825A /* PayUIButtonStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUIButtonStyler.swift; sourceTree = "<group>"; };
+		0BB90EFC204F2C790027825A /* TabTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTotal.swift; sourceTree = "<group>"; };
+		0BB90EFE204F30B90027825A /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		0BB90F00204F3A1B0027825A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		692042A2DA90A920DE623398 /* Pods_SplitTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7938F33C359394B6C22F2CD /* Pods-SplitTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitTab.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitTab/Pods-SplitTab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CF74C9F17F7B63E0B8C9DE /* Pods_SplitTab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				0B7CAFDE20450B4D00E1A958 /* SplitTab */,
 				0B7CAFDD20450B4D00E1A958 /* Products */,
+				2E903AD5A2F13EAF585968F7 /* Pods */,
+				269EACDDB7F78314C4B5E5A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +95,45 @@
 			children = (
 				0B7CAFDF20450B4D00E1A958 /* AppDelegate.swift */,
 				0B7CAFE120450B4D00E1A958 /* ViewController.swift */,
+				0B807FC3204F780100A0D8C6 /* NearbyCollectionViewController.swift */,
+				0BAF7843204F9EC0004A4F9A /* NearbyTemplateViewController.swift */,
+				0BB90EFA204D31550027825A /* PayUIButtonStyler.swift */,
+				0B807FC1204F768F00A0D8C6 /* StartTabButtonStyler.swift */,
+				0BB90EF2204CF6F00027825A /* TabItem.swift */,
+				0BB90EFE204F30B90027825A /* TabViewController.swift */,
+				0BB90EF6204D06C50027825A /* TabTableViewController.swift */,
+				0B06E00D208F993D0021D242 /* MenuItem.swift */,
+				0B06E00F208F994D0021D242 /* Menu.swift */,
+				0BB90EF4204CFE6E0027825A /* TabTableViewCell.swift */,
+				0BB90EFC204F2C790027825A /* TabTotal.swift */,
 				0B7CAFE320450B4D00E1A958 /* Main.storyboard */,
+				0B06E03A209040300021D242 /* FinalRecViewController.swift */,
+				0BB83FDC207AD63A000CE321 /* RestaurantProfileViewController.swift */,
+				0B992A1E208EE1BA00278B97 /* Restaurant.swift */,
+				0BB90F00204F3A1B0027825A /* Tab.swift */,
+				0BB90EF8204D2AA00027825A /* TabUIView.swift */,
 				0B7CAFE620450B4D00E1A958 /* Assets.xcassets */,
 				0B7CAFE820450B4D00E1A958 /* LaunchScreen.storyboard */,
 				0B7CAFEB20450B4D00E1A958 /* Info.plist */,
 			);
 			path = SplitTab;
+			sourceTree = "<group>";
+		};
+		269EACDDB7F78314C4B5E5A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				692042A2DA90A920DE623398 /* Pods_SplitTab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E903AD5A2F13EAF585968F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05604BF64A2B2F30AB9B69D4 /* Pods-SplitTab.debug.xcconfig */,
+				D7938F33C359394B6C22F2CD /* Pods-SplitTab.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B7CAFEE20450B4D00E1A958 /* Build configuration list for PBXNativeTarget "SplitTab" */;
 			buildPhases = (
+				F2C0E30F5898A521ED2B7C08 /* [CP] Check Pods Manifest.lock */,
 				0B7CAFD820450B4D00E1A958 /* Sources */,
 				0B7CAFD920450B4D00E1A958 /* Frameworks */,
 				0B7CAFDA20450B4D00E1A958 /* Resources */,
+				3185EC7D41129BD57F559EED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,13 +205,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3185EC7D41129BD57F559EED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SplitTab/Pods-SplitTab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitTab/Pods-SplitTab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C0E30F5898A521ED2B7C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitTab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B7CAFD820450B4D00E1A958 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B06E00E208F993D0021D242 /* MenuItem.swift in Sources */,
+				0BAF7844204F9EC0004A4F9A /* NearbyTemplateViewController.swift in Sources */,
+				0B807FC2204F768F00A0D8C6 /* StartTabButtonStyler.swift in Sources */,
 				0B7CAFE220450B4D00E1A958 /* ViewController.swift in Sources */,
+				0B06E03B209040300021D242 /* FinalRecViewController.swift in Sources */,
 				0B7CAFE020450B4D00E1A958 /* AppDelegate.swift in Sources */,
+				0BB90EF9204D2AA00027825A /* TabUIView.swift in Sources */,
+				0B06E010208F994D0021D242 /* Menu.swift in Sources */,
+				0B992A1F208EE1BA00278B97 /* Restaurant.swift in Sources */,
+				0BB83FDD207AD63A000CE321 /* RestaurantProfileViewController.swift in Sources */,
+				0BB90EF7204D06C50027825A /* TabTableViewController.swift in Sources */,
+				0BB90EFD204F2C790027825A /* TabTotal.swift in Sources */,
+				0BB90EFB204D31550027825A /* PayUIButtonStyler.swift in Sources */,
+				0BB90EFF204F30B90027825A /* TabViewController.swift in Sources */,
+				0BB90F01204F3A1B0027825A /* Tab.swift in Sources */,
+				0BB90EF3204CF6F00027825A /* TabItem.swift in Sources */,
+				0BB90EF5204CFE6E0027825A /* TabTableViewCell.swift in Sources */,
+				0B807FC4204F780100A0D8C6 /* NearbyCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +401,11 @@
 		};
 		0B7CAFEF20450B4D00E1A958 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05604BF64A2B2F30AB9B69D4 /* Pods-SplitTab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSRBY82694;
 				INFOPLIST_FILE = SplitTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexlostak.SplitTab;
@@ -286,9 +417,11 @@
 		};
 		0B7CAFF020450B4D00E1A958 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7938F33C359394B6C22F2CD /* Pods-SplitTab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSRBY82694;
 				INFOPLIST_FILE = SplitTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexlostak.SplitTab;
